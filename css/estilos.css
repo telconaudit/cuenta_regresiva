@@ -13,7 +13,7 @@ body {
     text-align: left;
 }
 .imagen {
-	width:55%;
+	width:60%;
 }
 .texto-centrado {
     text-align: left;
@@ -169,6 +169,7 @@ main {
 .qr .btn-red-social:hover {
 	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
 }
+
 .row {
 	align-items: center;
 }
@@ -226,14 +227,14 @@ body {
 	color: #39434c;
     font-family: 'Work Sans', sans-serif;
 }
+
 .footer {
-	background: #304E73;
 	color: #39434c;
     font-family: 'Work Sans', sans-serif;
 	display:inherit;
 }
 .imagen {
-	width:80%;
+	width:90%;
 }
 .texto-centrado {
     text-align: center;
@@ -241,22 +242,15 @@ body {
 
 /* ? ----- PORTADA ----- */
 .portada {
-	width: 100%;
-	background: #fff;
+		height: 200px;
+		width: 400px;
+		background-image: url("../img/Header.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 100%;
 
-	min-height: 100vh;
-	/*position: fixed;*/
-	top: 0;
-	left: 0;
-	right: 0;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	transition: .5s ease-out all;
 }
+
 
 .portada.oculta {
 	transform: translateY(100%);
@@ -326,19 +320,17 @@ main {
 	font-weight: 100;
 	font-size: 10px;
 }
-.contenedor {
-	height: 100%;
-    width: 100%;
-	display: flex;
-    align-items: center;
-	background-image: url("../img/barra-discovercit.png");
-	background-repeat: no-repeat;
-	background-attachment: local;
-	background-size: 100% 100%;
-	width: 100%;
-    height: auto;
-	margin-bottom:25px
-}
+	.contenedor {
+		display: flex;
+		align-items: center;
+		/*background-image: url("../img/barra-discovercit.png");*/
+		/*background-repeat: no-repeat;*/
+		/*background-attachment: local;*/
+		/*background-size: 100% 100%;*/
+		background-color: #e7c339;
+
+
+	}
 
 .simply-countdown-inline {
 	font-size: 20px;
@@ -354,16 +346,17 @@ main {
 
 /* ? ----- REDES SOCIALES ----- */
 .qr .btn-red-social {
-	padding: 15px 0;
 	display: inline-block;
-	min-width: 120px;
-	border-radius: 5px;
+	min-width: 60px;
 	background: #FF0000;
 	color: #fff;
-	font-size: 30px;
 	margin: 0 20px;
 	transition: .3s ease all;
+	padding: 0.5rem 0.5rem;
+	font-size: 0.5rem;
+	border-radius: 0.3rem;
 }
+
 
 .qr .btn-red-social:hover {
 	box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
