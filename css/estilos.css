@@ -19,8 +19,8 @@ body {
     text-align: left;
 }
 .footer {
-	background: #304E73;
-	color: #ffffff;
+	/*background: #304E73;*/
+	color: #39434c;
     font-family: 'Work Sans', sans-serif;
 	display:inherit;
 
@@ -31,21 +31,28 @@ body {
 
 /* ? ----- PORTADA ----- */
 .portada {
-	width: 100%;
+	height: 600px;
+	width: 600px;
+	/*margin-bottom: 35px;*/
+	background-image: url("../img/Header.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*width: 100%;
 	background: #fff;
 
 	min-height: 100vh;
-	/*position: fixed;*/
+	!*position: fixed;*!
 	top: 0;
 	left: 0;
 	right: 0;
 
-	display: flex;
-	flex-direction: column;
+	display: block;
+	!*flex-direction: column;*!
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	transition: .5s ease-out all;
+	transition: .5s ease-out all;*/
 }
 
 .portada.oculta {
@@ -90,8 +97,8 @@ main {
 	padding-top: 60px;
 	margin-bottom: 50px;
 	align-items: center;
-	color:white;
-	
+	color:#39434c;
+
 }
 
 .simply-section {
@@ -103,7 +110,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 }
 
 .simply-amount {
@@ -117,17 +124,21 @@ main {
 	font-size: 10px;
 }
 .contenedor {
-	height: 100%;
-    width: 100%;
 	display: flex;
     align-items: center;
-	background-image: url("../img/barra-discovercit.png");
-	background-repeat: no-repeat;
-	background-attachment: local;
-	background-size: 100% 100%;
-	width: 100%;
-    height: auto;
-	margin-bottom:25px
+	/*background-image: url("../img/barra-discovercit.png");*/
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: local;*/
+	/*background-size: 100% 100%;*/
+	background-color: #e7c339;
+
+
+}
+.separador{
+	background-color: #363639;
+	height: 15px;
+
+
 }
 
 .simply-countdown-inline {
@@ -135,7 +146,7 @@ main {
 	font-weight: 700;
 	display: flex;
     align-items: center;
-	
+
 }
 
 /* ? ---------------------------- */
@@ -164,7 +175,7 @@ main {
 .row .columna {
 	margin-top:40px;
 	max-width:50%;
-	
+
 }
 
 .qr-section {
@@ -177,7 +188,7 @@ main {
 	align-items: center;
 	justify-content: center;
 	padding-top:18px;
-	
+
 }
 .btn-perzonalizado{
 	--bs-btn-color: #fff;
@@ -196,10 +207,10 @@ main {
     --bs-btn-disabled-border-color: #0d6efd;
 }
 p {
-	color:#fff
+	color: #39434c;
 }
-h2, h3, h4 {
-	color:#304E73
+h2, h3, h4, h5 {
+	color:#39434c
 }
 
 @media screen and (max-width: 500px) {
@@ -212,12 +223,12 @@ h2, h3, h4 {
 
 body {
 	background: #fff;
-	color: #363639;
+	color: #39434c;
     font-family: 'Work Sans', sans-serif;
 }
 .footer {
 	background: #304E73;
-	color: #ffffff;
+	color: #39434c;
     font-family: 'Work Sans', sans-serif;
 	display:inherit;
 }
@@ -290,7 +301,7 @@ main {
 	margin-bottom: 50px;
 	align-items: center;
 	color:white;
-	
+
 }
 
 .simply-section {
@@ -302,7 +313,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 }
 
 .simply-amount {
@@ -334,7 +345,7 @@ main {
 	font-weight: 700;
 	display: flex;
     align-items: center;
-	
+
 }
 
 /* ? ---------------------------- */
@@ -363,7 +374,7 @@ main {
 .row .columna {
 	margin-top:40px;
 	max-width:50%;
-	
+
 }
 
 .qr-section {
@@ -376,12 +387,12 @@ main {
 	align-items: center;
 	justify-content: center;
 	padding-top:18px;
-	
+
 }
 p {
-	color:#fff
+	color:#39434c
 }
-h2, h3, h4 {
-	color:#304E73
+h2, h3, h4, h5 {
+	color:#39434c
 }
 }
